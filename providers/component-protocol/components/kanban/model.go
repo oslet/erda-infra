@@ -15,7 +15,7 @@
 package kanban
 
 import (
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
+	"github.com/oslet/erda-infra/providers/component-protocol/cptype"
 )
 
 // Below is standard struct for kanban related.

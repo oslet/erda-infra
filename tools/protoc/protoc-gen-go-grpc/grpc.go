@@ -22,7 +22,7 @@ import (
 	"google.golang.org/protobuf/compiler/protogen"
 	"google.golang.org/protobuf/types/descriptorpb"
 
-	"github.com/erda-project/erda-infra/tools/protoc/include/custom/extension"
+	"github.com/oslet/erda-infra/tools/protoc/include/custom/extension"
 )
 
 const (
@@ -30,8 +30,8 @@ const (
 	grpcPackage      = protogen.GoImportPath("google.golang.org/grpc")
 	codesPackage     = protogen.GoImportPath("google.golang.org/grpc/codes")
 	statusPackage    = protogen.GoImportPath("google.golang.org/grpc/status")
-	transgrpcPackage = protogen.GoImportPath("github.com/erda-project/erda-infra/pkg/transport/grpc")
-	transportPackage = protogen.GoImportPath("github.com/erda-project/erda-infra/pkg/transport")
+	transgrpcPackage = protogen.GoImportPath("github.com/oslet/erda-infra/pkg/transport/grpc")
+	transportPackage = protogen.GoImportPath("github.com/oslet/erda-infra/pkg/transport")
 )
 
 // generateFile generates a _grpc.pb.go file containing gRPC service definitions.

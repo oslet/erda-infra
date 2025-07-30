@@ -19,7 +19,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/erda-project/erda-infra/pkg/trace"
+	"github.com/oslet/erda-infra/pkg/trace"
 )
 
 // Group .

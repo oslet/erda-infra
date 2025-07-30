@@ -17,7 +17,7 @@
 package httprule
 
 import (
-	"github.com/erda-project/erda-infra/pkg/transport/http/utilities"
+	"github.com/oslet/erda-infra/pkg/transport/http/utilities"
 )
 
 const (

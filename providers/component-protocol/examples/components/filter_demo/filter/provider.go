@@ -17,11 +17,11 @@ package filter
 import (
 	"fmt"
 
-	"github.com/erda-project/erda-infra/providers/component-protocol/components/filter"
-	"github.com/erda-project/erda-infra/providers/component-protocol/components/filter/impl"
-	model "github.com/erda-project/erda-infra/providers/component-protocol/components/filter/models"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	"github.com/erda-project/erda-infra/providers/component-protocol/utils/cputil"
+	"github.com/oslet/erda-infra/providers/component-protocol/components/filter"
+	"github.com/oslet/erda-infra/providers/component-protocol/components/filter/impl"
+	model "github.com/oslet/erda-infra/providers/component-protocol/components/filter/models"
+	"github.com/oslet/erda-infra/providers/component-protocol/cptype"
+	"github.com/oslet/erda-infra/providers/component-protocol/utils/cputil"
 )
 
 type provider struct {

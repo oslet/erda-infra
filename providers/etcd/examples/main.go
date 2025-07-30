@@ -20,8 +20,8 @@ import (
 
 	clientv3 "go.etcd.io/etcd/client/v3"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/providers/etcd"
+	"github.com/oslet/erda-infra/base/servicehub"
+	"github.com/oslet/erda-infra/providers/etcd"
 )
 
 type provider struct {

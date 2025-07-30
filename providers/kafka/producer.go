@@ -22,8 +22,8 @@ import (
 	"github.com/confluentinc/confluent-kafka-go/kafka"
 	"github.com/recallsong/go-utils/reflectx"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	writer "github.com/erda-project/erda-infra/pkg/parallel-writer"
+	"github.com/oslet/erda-infra/base/logs"
+	writer "github.com/oslet/erda-infra/pkg/parallel-writer"
 )
 
 // Message .

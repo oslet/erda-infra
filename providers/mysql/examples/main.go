@@ -21,8 +21,8 @@ import (
 
 	"github.com/jinzhu/gorm"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/providers/mysql"
+	"github.com/oslet/erda-infra/base/servicehub"
+	"github.com/oslet/erda-infra/providers/mysql"
 )
 
 type provider struct {

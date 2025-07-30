@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/providers/health"
-	_ "github.com/erda-project/erda-infra/providers/httpserver"
+	"github.com/oslet/erda-infra/base/servicehub"
+	"github.com/oslet/erda-infra/providers/health"
+	_ "github.com/oslet/erda-infra/providers/httpserver"
 )
 
 type provider struct {

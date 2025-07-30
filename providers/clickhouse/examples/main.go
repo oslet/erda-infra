@@ -22,8 +22,8 @@ import (
 
 	ck "github.com/ClickHouse/clickhouse-go/v2"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/providers/clickhouse"
+	"github.com/oslet/erda-infra/base/servicehub"
+	"github.com/oslet/erda-infra/providers/clickhouse"
 )
 
 type provider struct {

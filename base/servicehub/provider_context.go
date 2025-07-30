@@ -27,8 +27,8 @@ import (
 	unmarshalflag "github.com/recallsong/unmarshal/unmarshal-flag"
 	"github.com/spf13/pflag"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/pkg/config"
+	"github.com/oslet/erda-infra/base/logs"
+	"github.com/oslet/erda-infra/pkg/config"
 )
 
 type inheritLabelStrategy string

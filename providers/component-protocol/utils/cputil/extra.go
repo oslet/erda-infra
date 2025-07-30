@@ -15,7 +15,7 @@
 package cputil
 
 import (
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
+	"github.com/oslet/erda-infra/providers/component-protocol/cptype"
 )
 
 // NewExtra .

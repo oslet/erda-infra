@@ -19,7 +19,7 @@ import (
 
 	"github.com/labstack/echo"
 
-	"github.com/erda-project/erda-infra/base/logs"
+	"github.com/oslet/erda-infra/base/logs"
 )
 
 const (

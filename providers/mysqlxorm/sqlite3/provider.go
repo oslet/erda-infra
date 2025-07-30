@@ -21,9 +21,9 @@ import (
 	"xorm.io/xorm"
 	"xorm.io/xorm/names"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/providers/mysqlxorm"
+	"github.com/oslet/erda-infra/base/logs"
+	"github.com/oslet/erda-infra/base/servicehub"
+	"github.com/oslet/erda-infra/providers/mysqlxorm"
 )
 
 type config struct {

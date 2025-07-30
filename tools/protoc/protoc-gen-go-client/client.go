@@ -22,13 +22,13 @@ import (
 
 	"google.golang.org/protobuf/compiler/protogen"
 
-	"github.com/erda-project/erda-infra/tools/protoc/include/custom/extension"
+	"github.com/oslet/erda-infra/tools/protoc/include/custom/extension"
 )
 
 const (
 	contextPackage   = protogen.GoImportPath("context")
 	grpcPackage      = protogen.GoImportPath("google.golang.org/grpc")
-	transgrpcPackage = protogen.GoImportPath("github.com/erda-project/erda-infra/pkg/transport/grpc")
+	transgrpcPackage = protogen.GoImportPath("github.com/oslet/erda-infra/pkg/transport/grpc")
 )
 
 func generateFiles(gen *protogen.Plugin, files []*protogen.File) error {

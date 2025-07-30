@@ -23,7 +23,7 @@ import (
 )
 
 const (
-	servicehubPackage = protogen.GoImportPath("github.com/erda-project/erda-infra/base/servicehub")
+	servicehubPackage = protogen.GoImportPath("github.com/oslet/erda-infra/base/servicehub")
 	stringsPackage    = protogen.GoImportPath("strings")
 	reflectPackage    = protogen.GoImportPath("reflect")
 	fmtPackage        = protogen.GoImportPath("fmt")

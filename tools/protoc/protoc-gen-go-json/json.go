@@ -20,7 +20,7 @@ import (
 
 const (
 	protojsonPackage = protogen.GoImportPath("google.golang.org/protobuf/encoding/protojson")
-	jsonpbPackage    = protogen.GoImportPath("github.com/erda-project/erda-infra/pkg/transport/http/encoding/jsonpb")
+	jsonpbPackage    = protogen.GoImportPath("github.com/oslet/erda-infra/pkg/transport/http/encoding/jsonpb")
 	jsonPackage      = protogen.GoImportPath("encoding/json")
 	bytesPackage     = protogen.GoImportPath("bytes")
 )

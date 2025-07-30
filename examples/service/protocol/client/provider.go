@@ -8,9 +8,9 @@ import (
 	reflect "reflect"
 	strings "strings"
 
-	servicehub "github.com/erda-project/erda-infra/base/servicehub"
-	pb "github.com/erda-project/erda-infra/examples/service/protocol/pb"
-	grpc "github.com/erda-project/erda-infra/pkg/transport/grpc"
+	servicehub "github.com/oslet/erda-infra/base/servicehub"
+	pb "github.com/oslet/erda-infra/examples/service/protocol/pb"
+	grpc "github.com/oslet/erda-infra/pkg/transport/grpc"
 	grpc1 "google.golang.org/grpc"
 )
 

@@ -3,7 +3,7 @@ ARG BASE_IMAGE="golang:${GO_VERSION}-bullseye"
 
 FROM --platform=$TARGETPLATFORM ${BASE_IMAGE} as build
 
-ENV PROJ_ROOT="/go/src/github.com/erda-project/erda-infra"
+ENV PROJ_ROOT="/go/src/github.com/oslet/erda-infra"
 WORKDIR "${PROJ_ROOT}"
 
 ENV GOPROXY=https://goproxy.cn,direct \

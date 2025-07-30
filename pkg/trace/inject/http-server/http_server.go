@@ -22,8 +22,8 @@ import (
 
 	"go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"
 
-	injectcontext "github.com/erda-project/erda-infra/pkg/trace/inject/context"
-	"github.com/erda-project/erda-infra/pkg/trace/inject/hook"
+	injectcontext "github.com/oslet/erda-infra/pkg/trace/inject/context"
+	"github.com/oslet/erda-infra/pkg/trace/inject/hook"
 )
 
 type serverHandler struct {

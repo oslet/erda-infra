@@ -23,8 +23,8 @@ import (
 	ck "github.com/ClickHouse/clickhouse-go/v2"
 	ckdriver "github.com/ClickHouse/clickhouse-go/v2/lib/driver"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
+	"github.com/oslet/erda-infra/base/logs"
+	"github.com/oslet/erda-infra/base/servicehub"
 )
 
 // Interface clickhouse client

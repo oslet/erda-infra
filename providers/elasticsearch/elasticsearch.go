@@ -20,9 +20,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	writer "github.com/erda-project/erda-infra/pkg/parallel-writer"
+	"github.com/oslet/erda-infra/base/logs"
+	"github.com/oslet/erda-infra/base/servicehub"
+	writer "github.com/oslet/erda-infra/pkg/parallel-writer"
 	"github.com/olivere/elastic"
 )
 

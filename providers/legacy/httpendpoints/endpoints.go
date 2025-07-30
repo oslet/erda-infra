@@ -27,8 +27,8 @@ import (
 	"github.com/gofrs/uuid"
 	"github.com/gorilla/mux"
 
-	"github.com/erda-project/erda-infra/providers/legacy/httpendpoints/i18n"
-	"github.com/erda-project/erda-infra/providers/legacy/httpendpoints/ierror"
+	"github.com/oslet/erda-infra/providers/legacy/httpendpoints/i18n"
+	"github.com/oslet/erda-infra/providers/legacy/httpendpoints/ierror"
 )
 
 const (

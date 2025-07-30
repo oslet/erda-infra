@@ -18,9 +18,9 @@ import (
 	"embed"
 	"os"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/providers/i18n"
+	"github.com/oslet/erda-infra/base/logs"
+	"github.com/oslet/erda-infra/base/servicehub"
+	"github.com/oslet/erda-infra/providers/i18n"
 )
 
 //go:embed i18n

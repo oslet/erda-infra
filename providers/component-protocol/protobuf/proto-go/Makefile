@@ -21,4 +21,4 @@ auto-update-infra-for-master:
 
 update-infra:
 	echo "update infra and gohub"
-	go get -u github.com/erda-project/erda-infra/tools/gohub
+	go get -u github.com/oslet/erda-infra/tools/gohub

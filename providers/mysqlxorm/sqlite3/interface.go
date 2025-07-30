@@ -24,7 +24,7 @@ import (
 	"xorm.io/xorm"
 	"xorm.io/xorm/names"
 
-	"github.com/erda-project/erda-infra/providers/mysqlxorm"
+	"github.com/oslet/erda-infra/providers/mysqlxorm"
 )
 
 type Sqlite3 struct {

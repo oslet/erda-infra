@@ -17,7 +17,7 @@ package cputil
 import (
 	"context"
 
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
+	"github.com/oslet/erda-infra/providers/component-protocol/cptype"
 )
 
 // SDK return cp sdk for easy use.

@@ -25,7 +25,7 @@ import (
 
 const (
 	urlPackage      = protogen.GoImportPath("net/url")
-	urlencPackage   = protogen.GoImportPath("github.com/erda-project/erda-infra/pkg/urlenc")
+	urlencPackage   = protogen.GoImportPath("github.com/oslet/erda-infra/pkg/urlenc")
 	stringsPackage  = protogen.GoImportPath("strings")
 	structpbPackage = protogen.GoImportPath("google.golang.org/protobuf/types/known/structpb")
 	base64Package   = protogen.GoImportPath("encoding/base64")

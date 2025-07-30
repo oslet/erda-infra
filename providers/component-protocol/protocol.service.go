@@ -17,10 +17,10 @@ package componentprotocol
 import (
 	"context"
 
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	"github.com/erda-project/erda-infra/providers/component-protocol/protobuf/proto-go/cp/pb"
-	"github.com/erda-project/erda-infra/providers/component-protocol/protocol"
-	"github.com/erda-project/erda-infra/providers/component-protocol/utils/cputil"
+	"github.com/oslet/erda-infra/providers/component-protocol/cptype"
+	"github.com/oslet/erda-infra/providers/component-protocol/protobuf/proto-go/cp/pb"
+	"github.com/oslet/erda-infra/providers/component-protocol/protocol"
+	"github.com/oslet/erda-infra/providers/component-protocol/utils/cputil"
 )
 
 type protocolService struct {

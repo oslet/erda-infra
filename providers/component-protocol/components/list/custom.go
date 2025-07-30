@@ -14,7 +14,7 @@
 
 package list
 
-import "github.com/erda-project/erda-infra/providers/component-protocol/cptype"
+import "github.com/oslet/erda-infra/providers/component-protocol/cptype"
 
 // CustomData is list's custom data handler.
 type CustomData interface {

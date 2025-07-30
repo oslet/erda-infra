@@ -23,7 +23,7 @@ import (
 	"text/template"
 	"unicode"
 
-	"github.com/erda-project/erda-infra/tools/gohub/cmd"
+	"github.com/oslet/erda-infra/tools/gohub/cmd"
 	"github.com/spf13/cobra"
 )
 

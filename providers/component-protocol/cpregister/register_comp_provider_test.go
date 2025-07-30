@@ -21,9 +21,9 @@ import (
 	"github.com/mohae/deepcopy"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/erda-project/erda-infra/providers/component-protocol/components/topn/impl"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	"github.com/erda-project/erda-infra/providers/i18n"
+	"github.com/oslet/erda-infra/providers/component-protocol/components/topn/impl"
+	"github.com/oslet/erda-infra/providers/component-protocol/cptype"
+	"github.com/oslet/erda-infra/providers/i18n"
 )
 
 type MockProvider struct {

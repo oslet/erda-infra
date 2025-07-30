@@ -18,10 +18,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	_ "github.com/erda-project/erda-infra/providers/health"
-	_ "github.com/erda-project/erda-infra/providers/httpserver"
-	fclient "github.com/erda-project/erda-infra/providers/remote-forward/client"
+	"github.com/oslet/erda-infra/base/servicehub"
+	_ "github.com/oslet/erda-infra/providers/health"
+	_ "github.com/oslet/erda-infra/providers/httpserver"
+	fclient "github.com/oslet/erda-infra/providers/remote-forward/client"
 )
 
 type provider struct {

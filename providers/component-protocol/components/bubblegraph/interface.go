@@ -14,7 +14,7 @@
 
 package bubblegraph
 
-import "github.com/erda-project/erda-infra/providers/component-protocol/cptype"
+import "github.com/oslet/erda-infra/providers/component-protocol/cptype"
 
 // IBubbleGraph bubble graph interface
 type IBubbleGraph interface {

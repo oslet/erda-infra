@@ -19,9 +19,9 @@ import (
 	"net/http"
 	"strings"
 
-	transgrpc "github.com/erda-project/erda-infra/pkg/transport/grpc"
-	transhttp "github.com/erda-project/erda-infra/pkg/transport/http"
-	"github.com/erda-project/erda-infra/pkg/transport/interceptor"
+	transgrpc "github.com/oslet/erda-infra/pkg/transport/grpc"
+	transhttp "github.com/oslet/erda-infra/pkg/transport/http"
+	"github.com/oslet/erda-infra/pkg/transport/interceptor"
 	"google.golang.org/grpc/metadata"
 )
 

@@ -14,7 +14,7 @@
 
 package servicehub
 
-import "github.com/erda-project/erda-infra/base/logs"
+import "github.com/oslet/erda-infra/base/logs"
 
 // Option .
 type Option func(hub *Hub)

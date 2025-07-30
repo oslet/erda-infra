@@ -15,7 +15,7 @@
 package example
 
 import (
-	"github.com/erda-project/erda-infra/base/servicehub"
+	"github.com/oslet/erda-infra/base/servicehub"
 )
 
 // Interface .

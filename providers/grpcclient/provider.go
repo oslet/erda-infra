@@ -23,10 +23,10 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	grpccontext "github.com/erda-project/erda-infra/pkg/trace/inject/context/grpc"
-	transgrpc "github.com/erda-project/erda-infra/pkg/transport/grpc"
+	"github.com/oslet/erda-infra/base/logs"
+	"github.com/oslet/erda-infra/base/servicehub"
+	grpccontext "github.com/oslet/erda-infra/pkg/trace/inject/context/grpc"
+	transgrpc "github.com/oslet/erda-infra/pkg/transport/grpc"
 )
 
 // Interface .

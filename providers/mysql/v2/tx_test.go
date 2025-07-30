@@ -23,7 +23,7 @@ package v2_test
 //	"gorm.io/driver/sqlite"
 //	"gorm.io/gorm"
 //
-//	v2 "github.com/erda-project/erda-infra/providers/mysql/v2"
+//	v2 "github.com/oslet/erda-infra/providers/mysql/v2"
 //)
 //
 //var dsn = filepath.Join(os.TempDir(), "gorm.db")

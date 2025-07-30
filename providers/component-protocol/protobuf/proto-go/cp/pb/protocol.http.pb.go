@@ -7,13 +7,13 @@ import (
 	context "context"
 	http1 "net/http"
 
-	transport "github.com/erda-project/erda-infra/pkg/transport"
-	http "github.com/erda-project/erda-infra/pkg/transport/http"
-	urlenc "github.com/erda-project/erda-infra/pkg/urlenc"
+	transport "github.com/oslet/erda-infra/pkg/transport"
+	http "github.com/oslet/erda-infra/pkg/transport/http"
+	urlenc "github.com/oslet/erda-infra/pkg/urlenc"
 )
 
 // This is a compile-time assertion to ensure that this generated file
-// is compatible with the "github.com/erda-project/erda-infra/pkg/transport/http" package it is being compiled against.
+// is compatible with the "github.com/oslet/erda-infra/pkg/transport/http" package it is being compiled against.
 const _ = http.SupportPackageIsVersion1
 
 // CPServiceHandler is the server API for CPService service.

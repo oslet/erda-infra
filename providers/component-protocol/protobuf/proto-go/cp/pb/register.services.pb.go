@@ -6,7 +6,7 @@ package pb
 import (
 	reflect "reflect"
 
-	transport "github.com/erda-project/erda-infra/pkg/transport"
+	transport "github.com/oslet/erda-infra/pkg/transport"
 )
 
 // RegisterCPServiceImp protocol.proto

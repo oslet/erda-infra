@@ -15,7 +15,7 @@
 package kv
 
 import (
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
+	"github.com/oslet/erda-infra/providers/component-protocol/cptype"
 )
 
 // CustomData is kv's custom data handler.

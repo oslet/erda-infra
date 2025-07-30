@@ -22,8 +22,8 @@ import (
 	"github.com/sirupsen/logrus"
 	"xorm.io/xorm"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/providers/mysqlxorm"
+	"github.com/oslet/erda-infra/base/servicehub"
+	"github.com/oslet/erda-infra/providers/mysqlxorm"
 )
 
 type provider struct {

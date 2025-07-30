@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/erda-project/erda-infra/pkg/transport/http/utilities"
+	"github.com/oslet/erda-infra/pkg/transport/http/utilities"
 	"google.golang.org/grpc/grpclog"
 )
 

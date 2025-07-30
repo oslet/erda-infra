@@ -15,12 +15,12 @@
 package complexgraph
 
 import (
-	"github.com/erda-project/erda-infra/base/servicehub"
-	structure "github.com/erda-project/erda-infra/providers/component-protocol/components/commodel/data-structure"
-	"github.com/erda-project/erda-infra/providers/component-protocol/components/complexgraph"
-	"github.com/erda-project/erda-infra/providers/component-protocol/components/complexgraph/impl"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cpregister/base"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
+	"github.com/oslet/erda-infra/base/servicehub"
+	structure "github.com/oslet/erda-infra/providers/component-protocol/components/commodel/data-structure"
+	"github.com/oslet/erda-infra/providers/component-protocol/components/complexgraph"
+	"github.com/oslet/erda-infra/providers/component-protocol/components/complexgraph/impl"
+	"github.com/oslet/erda-infra/providers/component-protocol/cpregister/base"
+	"github.com/oslet/erda-infra/providers/component-protocol/cptype"
 )
 
 type provider struct {

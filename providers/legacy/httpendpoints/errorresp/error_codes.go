@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/erda-project/erda-infra/providers/legacy/httpendpoints/i18n"
+	"github.com/oslet/erda-infra/providers/legacy/httpendpoints/i18n"
 )
 
 // Error Codes i18n templates

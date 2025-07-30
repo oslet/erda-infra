@@ -23,8 +23,8 @@ import (
 	"github.com/recallsong/go-utils/reflectx"
 	"github.com/segmentio/kafka-go"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	writer "github.com/erda-project/erda-infra/pkg/parallel-writer"
+	"github.com/oslet/erda-infra/base/logs"
+	writer "github.com/oslet/erda-infra/pkg/parallel-writer"
 )
 
 // Message .

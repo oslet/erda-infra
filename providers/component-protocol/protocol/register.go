@@ -22,7 +22,7 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda-infra/pkg/strutil"
+	"github.com/oslet/erda-infra/pkg/strutil"
 )
 
 type file struct {

@@ -20,11 +20,11 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/providers/legacy/httpendpoints"
-	_ "github.com/erda-project/erda-infra/providers/legacy/httpendpoints"
-	"github.com/erda-project/erda-infra/providers/legacy/httpendpoints/errorresp"
+	"github.com/oslet/erda-infra/base/logs"
+	"github.com/oslet/erda-infra/base/servicehub"
+	"github.com/oslet/erda-infra/providers/legacy/httpendpoints"
+	_ "github.com/oslet/erda-infra/providers/legacy/httpendpoints"
+	"github.com/oslet/erda-infra/providers/legacy/httpendpoints/errorresp"
 )
 
 type config struct{}

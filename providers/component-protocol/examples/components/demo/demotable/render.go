@@ -18,8 +18,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	"github.com/erda-project/erda-infra/providers/component-protocol/utils/cputil"
+	"github.com/oslet/erda-infra/providers/component-protocol/cptype"
+	"github.com/oslet/erda-infra/providers/component-protocol/utils/cputil"
 )
 
 // Render .

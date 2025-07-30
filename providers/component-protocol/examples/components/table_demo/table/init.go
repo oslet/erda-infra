@@ -15,8 +15,8 @@
 package table
 
 import (
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cpregister/base"
+	"github.com/oslet/erda-infra/base/servicehub"
+	"github.com/oslet/erda-infra/providers/component-protocol/cpregister/base"
 )
 
 func init() {

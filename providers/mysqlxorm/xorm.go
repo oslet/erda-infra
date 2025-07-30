@@ -25,9 +25,9 @@ import (
 	xormlog "xorm.io/xorm/log"
 	"xorm.io/xorm/names"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/pkg/mysqldriver"
+	"github.com/oslet/erda-infra/base/logs"
+	"github.com/oslet/erda-infra/base/servicehub"
+	"github.com/oslet/erda-infra/pkg/mysqldriver"
 )
 
 // Interface .

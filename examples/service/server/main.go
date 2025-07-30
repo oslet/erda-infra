@@ -17,12 +17,12 @@ package main
 import (
 	"os"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
+	"github.com/oslet/erda-infra/base/servicehub"
 
 	// import all providers
-	_ "github.com/erda-project/erda-infra/examples/service/caller"
-	_ "github.com/erda-project/erda-infra/examples/service/server/helloworld"
-	_ "github.com/erda-project/erda-infra/providers"
+	_ "github.com/oslet/erda-infra/examples/service/caller"
+	_ "github.com/oslet/erda-infra/examples/service/server/helloworld"
+	_ "github.com/oslet/erda-infra/providers"
 )
 
 func main() {

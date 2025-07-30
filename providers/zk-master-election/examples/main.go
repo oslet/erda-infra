@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	election "github.com/erda-project/erda-infra/providers/zk-master-election"
+	"github.com/oslet/erda-infra/base/servicehub"
+	election "github.com/oslet/erda-infra/providers/zk-master-election"
 )
 
 type provider struct {

@@ -17,7 +17,7 @@ package parallel
 import (
 	"context"
 
-	"github.com/erda-project/erda-infra/pkg/trace"
+	"github.com/oslet/erda-infra/pkg/trace"
 )
 
 // Future .

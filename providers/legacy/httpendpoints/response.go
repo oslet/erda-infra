@@ -18,8 +18,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/erda-project/erda-infra/providers/legacy/httpendpoints/i18n"
-	"github.com/erda-project/erda-infra/providers/legacy/httpendpoints/ierror"
+	"github.com/oslet/erda-infra/providers/legacy/httpendpoints/i18n"
+	"github.com/oslet/erda-infra/providers/legacy/httpendpoints/ierror"
 	"github.com/sirupsen/logrus"
 )
 

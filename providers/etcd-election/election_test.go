@@ -23,7 +23,7 @@ import (
 	clientv3 "go.etcd.io/etcd/client/v3"
 	"go.etcd.io/etcd/tests/v3/integration"
 
-	"github.com/erda-project/erda-infra/base/logs/logrusx"
+	"github.com/oslet/erda-infra/base/logs/logrusx"
 )
 
 // waitTime defines the duration to wait for leader election processes.

@@ -18,7 +18,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/erda-project/erda-infra/pkg/transport/interceptor"
+	"github.com/oslet/erda-infra/pkg/transport/interceptor"
 )
 
 const (

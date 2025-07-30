@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/erda-project/erda-infra/pkg/strutil"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
+	"github.com/oslet/erda-infra/pkg/strutil"
+	"github.com/oslet/erda-infra/providers/component-protocol/cptype"
 )
 
 const (

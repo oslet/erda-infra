@@ -17,11 +17,11 @@ package filter
 import (
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda-infra/providers/component-protocol/components/filter"
-	"github.com/erda-project/erda-infra/providers/component-protocol/components/filter/impl"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cpregister"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	"github.com/erda-project/erda-infra/providers/component-protocol/utils/cputil"
+	"github.com/oslet/erda-infra/providers/component-protocol/components/filter"
+	"github.com/oslet/erda-infra/providers/component-protocol/components/filter/impl"
+	"github.com/oslet/erda-infra/providers/component-protocol/cpregister"
+	"github.com/oslet/erda-infra/providers/component-protocol/cptype"
+	"github.com/oslet/erda-infra/providers/component-protocol/utils/cputil"
 )
 
 // Filter .

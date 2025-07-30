@@ -26,7 +26,7 @@ import (
 	"google.golang.org/protobuf/encoding/protojson"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/erda-project/erda-infra/pkg/urlenc"
+	"github.com/oslet/erda-infra/pkg/urlenc"
 )
 
 type notSupportMediaTypeErr struct {

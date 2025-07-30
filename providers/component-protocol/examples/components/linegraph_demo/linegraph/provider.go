@@ -17,13 +17,13 @@ package linegraph
 import (
 	"reflect"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	structure "github.com/erda-project/erda-infra/providers/component-protocol/components/commodel/data-structure"
-	"github.com/erda-project/erda-infra/providers/component-protocol/components/linegraph"
-	"github.com/erda-project/erda-infra/providers/component-protocol/components/linegraph/impl"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cpregister/base"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	"github.com/erda-project/erda-infra/providers/component-protocol/protocol"
+	"github.com/oslet/erda-infra/base/servicehub"
+	structure "github.com/oslet/erda-infra/providers/component-protocol/components/commodel/data-structure"
+	"github.com/oslet/erda-infra/providers/component-protocol/components/linegraph"
+	"github.com/oslet/erda-infra/providers/component-protocol/components/linegraph/impl"
+	"github.com/oslet/erda-infra/providers/component-protocol/cpregister/base"
+	"github.com/oslet/erda-infra/providers/component-protocol/cptype"
+	"github.com/oslet/erda-infra/providers/component-protocol/protocol"
 )
 
 type provider struct {

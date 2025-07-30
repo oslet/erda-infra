@@ -17,11 +17,11 @@ package example
 import (
 	"context"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/examples/service/protocol/pb"
-	"github.com/erda-project/erda-infra/pkg/transport"
-	"github.com/erda-project/erda-infra/pkg/transport/interceptor"
+	"github.com/oslet/erda-infra/base/logs"
+	"github.com/oslet/erda-infra/base/servicehub"
+	"github.com/oslet/erda-infra/examples/service/protocol/pb"
+	"github.com/oslet/erda-infra/pkg/transport"
+	"github.com/oslet/erda-infra/pkg/transport/interceptor"
 )
 
 type config struct {

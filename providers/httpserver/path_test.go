@@ -22,8 +22,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/erda-project/erda-infra/pkg/transport/http/runtime"
-	"github.com/erda-project/erda-infra/providers/httpserver/server"
+	"github.com/oslet/erda-infra/pkg/transport/http/runtime"
+	"github.com/oslet/erda-infra/providers/httpserver/server"
 )
 
 func Test_buildGoogleAPIsPath(t *testing.T) {

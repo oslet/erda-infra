@@ -19,10 +19,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	_ "github.com/erda-project/erda-infra/providers/etcd"
-	election "github.com/erda-project/erda-infra/providers/etcd-election"
+	"github.com/oslet/erda-infra/base/logs"
+	"github.com/oslet/erda-infra/base/servicehub"
+	_ "github.com/oslet/erda-infra/providers/etcd"
+	election "github.com/oslet/erda-infra/providers/etcd-election"
 )
 
 type provider struct {

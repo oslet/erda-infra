@@ -7,7 +7,7 @@ import (
 	bytes "bytes"
 	json "encoding/json"
 
-	jsonpb "github.com/erda-project/erda-infra/pkg/transport/http/encoding/jsonpb"
+	jsonpb "github.com/oslet/erda-infra/pkg/transport/http/encoding/jsonpb"
 	protojson "google.golang.org/protobuf/encoding/protojson"
 )
 

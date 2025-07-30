@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	predis "github.com/erda-project/erda-infra/providers/redis"
+	"github.com/oslet/erda-infra/base/servicehub"
+	predis "github.com/oslet/erda-infra/providers/redis"
 	"github.com/go-redis/redis"
 )
 

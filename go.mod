@@ -1,4 +1,4 @@
-module github.com/erda-project/erda-infra
+module github.com/oslet/erda-infra
 
 go 1.22
 

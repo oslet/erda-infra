@@ -21,12 +21,12 @@ import (
 	jsi "github.com/json-iterator/go"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/pkg/transport"
-	transhttp "github.com/erda-project/erda-infra/pkg/transport/http"
-	"github.com/erda-project/erda-infra/providers/component-protocol/protobuf/proto-go/cp/pb"
-	"github.com/erda-project/erda-infra/providers/i18n"
+	"github.com/oslet/erda-infra/base/logs"
+	"github.com/oslet/erda-infra/base/servicehub"
+	"github.com/oslet/erda-infra/pkg/transport"
+	transhttp "github.com/oslet/erda-infra/pkg/transport/http"
+	"github.com/oslet/erda-infra/providers/component-protocol/protobuf/proto-go/cp/pb"
+	"github.com/oslet/erda-infra/providers/i18n"
 )
 
 type config struct {

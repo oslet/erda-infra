@@ -23,10 +23,10 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda-infra/pkg/strutil"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	"github.com/erda-project/erda-infra/providers/component-protocol/protocol/posthook"
-	"github.com/erda-project/erda-infra/providers/component-protocol/utils/cputil"
+	"github.com/oslet/erda-infra/pkg/strutil"
+	"github.com/oslet/erda-infra/providers/component-protocol/cptype"
+	"github.com/oslet/erda-infra/providers/component-protocol/protocol/posthook"
+	"github.com/oslet/erda-infra/providers/component-protocol/utils/cputil"
 )
 
 // RunScenarioRender .

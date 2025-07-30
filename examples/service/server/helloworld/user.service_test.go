@@ -19,8 +19,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/examples/service/protocol/pb"
+	"github.com/oslet/erda-infra/base/servicehub"
+	"github.com/oslet/erda-infra/examples/service/protocol/pb"
 )
 
 func Test_userService_GetUser(t *testing.T) {

@@ -22,9 +22,9 @@ import (
 	_ "github.com/go-sql-driver/mysql" // mysql client driver package
 	"github.com/jinzhu/gorm"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/pkg/mysqldriver"
+	"github.com/oslet/erda-infra/base/logs"
+	"github.com/oslet/erda-infra/base/servicehub"
+	"github.com/oslet/erda-infra/pkg/mysqldriver"
 )
 
 // Interface .

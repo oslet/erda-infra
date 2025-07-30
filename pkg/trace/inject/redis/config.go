@@ -27,7 +27,7 @@ import (
 )
 
 const (
-	instrumentationName = "github.com/erda-project/erda-infra/pkg/trace/inject/redis"
+	instrumentationName = "github.com/oslet/erda-infra/pkg/trace/inject/redis"
 )
 
 // SpanNameFormatter is an interface that used to format span names.

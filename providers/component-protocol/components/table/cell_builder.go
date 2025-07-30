@@ -15,9 +15,9 @@
 package table
 
 import (
-	"github.com/erda-project/erda-infra/providers/component-protocol/components/commodel"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	"github.com/erda-project/erda-infra/providers/component-protocol/utils/cputil"
+	"github.com/oslet/erda-infra/providers/component-protocol/components/commodel"
+	"github.com/oslet/erda-infra/providers/component-protocol/cptype"
+	"github.com/oslet/erda-infra/providers/component-protocol/utils/cputil"
 )
 
 type (

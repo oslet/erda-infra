@@ -26,9 +26,9 @@ import (
 
 	"github.com/recallsong/go-utils/reflectx"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	cfg "github.com/erda-project/erda-infra/pkg/config"
+	"github.com/oslet/erda-infra/base/logs"
+	"github.com/oslet/erda-infra/base/servicehub"
+	cfg "github.com/oslet/erda-infra/pkg/config"
 )
 
 // Internationalizable .

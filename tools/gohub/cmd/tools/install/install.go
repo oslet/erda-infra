@@ -29,9 +29,9 @@ import (
 
 	"github.com/mitchellh/go-homedir"
 
-	"github.com/erda-project/erda-infra/tools/gohub/cmd"
-	"github.com/erda-project/erda-infra/tools/gohub/cmd/pkgpath"
-	"github.com/erda-project/erda-infra/tools/gohub/cmd/version"
+	"github.com/oslet/erda-infra/tools/gohub/cmd"
+	"github.com/oslet/erda-infra/tools/gohub/cmd/pkgpath"
+	"github.com/oslet/erda-infra/tools/gohub/cmd/version"
 )
 
 // IncludeDirs .

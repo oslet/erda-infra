@@ -21,8 +21,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	mutex "github.com/erda-project/erda-infra/providers/etcd-mutex"
+	"github.com/oslet/erda-infra/base/servicehub"
+	mutex "github.com/oslet/erda-infra/providers/etcd-mutex"
 )
 
 type provider struct {

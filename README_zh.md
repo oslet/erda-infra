@@ -1,6 +1,6 @@
 # Erda Infra
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/erda-project/erda-infra.svg)](https://pkg.go.dev/github.com/erda-project/erda-infra)
+[![Go Reference](https://pkg.go.dev/badge/github.com/oslet/erda-infra.svg)](https://pkg.go.dev/github.com/oslet/erda-infra)
 [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 [![codecov](https://codecov.io/gh/erda-project/erda-infra/branch/develop/graph/badge.svg?token=SVROJLY8UK)](https://codecov.io/gh/erda-project/erda-infra)
 
@@ -57,7 +57,7 @@ helloworld
 package main
 
 import (
-	"github.com/erda-project/erda-infra/base/servicehub"
+	"github.com/oslet/erda-infra/base/servicehub"
 	_ "./helloworld" // your package import path
 )
 
@@ -90,7 +90,7 @@ syntax = "proto3";
 
 package erda.infra.example;
 import "google/api/annotations.proto";
-option go_package = "github.com/erda-project/erda-infra/examples/service/protocol/pb";
+option go_package = "github.com/oslet/erda-infra/examples/service/protocol/pb";
 
 // the greeting service definition.
 service GreeterService {
@@ -148,11 +148,11 @@ package main
 import (
 	"os"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
+	"github.com/oslet/erda-infra/base/servicehub"
 
 	// import all providers
-	_ "github.com/erda-project/erda-infra/examples/service/server/helloworld"
-	_ "github.com/erda-project/erda-infra/providers"
+	_ "github.com/oslet/erda-infra/examples/service/server/helloworld"
+	_ "github.com/oslet/erda-infra/providers"
 )
 
 func main() {
@@ -202,7 +202,7 @@ erda.infra.example:
 # 工具
 *gohub* 是一个能够帮助您快速构建模块的命令行工具，可以通过如下方式安装： 
 ```sh
-go get -u github.com/erda-project/erda-infra/tools/gohub
+go get -u github.com/oslet/erda-infra/tools/gohub
 ```
 
 也可以通过 Docker 容器来使用以下工具:

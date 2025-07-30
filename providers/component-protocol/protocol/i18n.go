@@ -18,9 +18,9 @@ import (
 	"context"
 	"regexp"
 
-	"github.com/erda-project/erda-infra/providers/component-protocol/protocol/translator"
-	"github.com/erda-project/erda-infra/providers/component-protocol/utils/cputil"
-	pi18n "github.com/erda-project/erda-infra/providers/i18n"
+	"github.com/oslet/erda-infra/providers/component-protocol/protocol/translator"
+	"github.com/oslet/erda-infra/providers/component-protocol/utils/cputil"
+	pi18n "github.com/oslet/erda-infra/providers/i18n"
 )
 
 var tran pi18n.Translator

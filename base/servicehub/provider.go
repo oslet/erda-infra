@@ -20,7 +20,7 @@ import (
 	"os"
 	"reflect"
 
-	"github.com/erda-project/erda-infra/base/logs"
+	"github.com/oslet/erda-infra/base/logs"
 )
 
 // Creator .

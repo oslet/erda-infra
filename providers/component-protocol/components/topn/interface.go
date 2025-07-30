@@ -14,7 +14,7 @@
 
 package topn
 
-import "github.com/erda-project/erda-infra/providers/component-protocol/cptype"
+import "github.com/oslet/erda-infra/providers/component-protocol/cptype"
 
 // ITop top interface
 type ITop interface {

@@ -22,9 +22,9 @@ import (
 	"time"
 
 	gokafka "github.com/confluentinc/confluent-kafka-go/kafka"
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/providers/kafka"
+	"github.com/oslet/erda-infra/base/logs"
+	"github.com/oslet/erda-infra/base/servicehub"
+	"github.com/oslet/erda-infra/providers/kafka"
 )
 
 type config struct {

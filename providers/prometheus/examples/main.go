@@ -17,9 +17,9 @@ package main
 import (
 	"os"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	_ "github.com/erda-project/erda-infra/providers/httpserver"
-	_ "github.com/erda-project/erda-infra/providers/prometheus"
+	"github.com/oslet/erda-infra/base/servicehub"
+	_ "github.com/oslet/erda-infra/providers/httpserver"
+	_ "github.com/oslet/erda-infra/providers/prometheus"
 )
 
 func main() {

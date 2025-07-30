@@ -20,8 +20,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/providers/elasticsearch"
+	"github.com/oslet/erda-infra/base/servicehub"
+	"github.com/oslet/erda-infra/providers/elasticsearch"
 	"github.com/olivere/elastic"
 )
 

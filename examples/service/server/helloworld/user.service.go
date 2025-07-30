@@ -17,7 +17,7 @@ package example
 import (
 	"context"
 
-	"github.com/erda-project/erda-infra/examples/service/protocol/pb"
+	"github.com/oslet/erda-infra/examples/service/protocol/pb"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

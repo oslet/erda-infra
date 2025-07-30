@@ -19,7 +19,7 @@ import (
 
 	jsi "github.com/json-iterator/go"
 
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
+	"github.com/oslet/erda-infra/providers/component-protocol/cptype"
 )
 
 var json = jsi.ConfigFastest

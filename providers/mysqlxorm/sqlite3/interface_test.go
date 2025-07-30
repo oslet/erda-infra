@@ -24,7 +24,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"xorm.io/xorm/names"
 
-	"github.com/erda-project/erda-infra/providers/mysqlxorm"
+	"github.com/oslet/erda-infra/providers/mysqlxorm"
 )
 
 const dbSourceName = "test1-*.db"

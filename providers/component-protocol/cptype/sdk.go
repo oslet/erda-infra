@@ -19,9 +19,9 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/erda-project/erda-infra/pkg/strutil"
-	"github.com/erda-project/erda-infra/providers/component-protocol/protobuf/proto-go/cp/pb"
-	"github.com/erda-project/erda-infra/providers/i18n"
+	"github.com/oslet/erda-infra/pkg/strutil"
+	"github.com/oslet/erda-infra/providers/component-protocol/protobuf/proto-go/cp/pb"
+	"github.com/oslet/erda-infra/providers/i18n"
 )
 
 // SDK .

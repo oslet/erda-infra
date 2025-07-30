@@ -15,7 +15,7 @@
 package complexgraph
 
 import (
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
+	"github.com/oslet/erda-infra/providers/component-protocol/cptype"
 )
 
 // CustomData is custom data handler of complex graph.

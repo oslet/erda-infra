@@ -17,11 +17,11 @@ package kanban
 import (
 	"fmt"
 
-	"github.com/erda-project/erda-infra/providers/component-protocol/components/kanban"
-	"github.com/erda-project/erda-infra/providers/component-protocol/components/kanban/impl"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	"github.com/erda-project/erda-infra/providers/component-protocol/utils/cputil"
-	"github.com/erda-project/erda-infra/providers/i18n"
+	"github.com/oslet/erda-infra/providers/component-protocol/components/kanban"
+	"github.com/oslet/erda-infra/providers/component-protocol/components/kanban/impl"
+	"github.com/oslet/erda-infra/providers/component-protocol/cptype"
+	"github.com/oslet/erda-infra/providers/component-protocol/utils/cputil"
+	"github.com/oslet/erda-infra/providers/i18n"
 )
 
 type component struct {

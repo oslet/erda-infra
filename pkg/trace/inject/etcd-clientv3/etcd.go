@@ -20,8 +20,8 @@ import (
 	clientv3 "go.etcd.io/etcd/client/v3"
 	"google.golang.org/grpc"
 
-	grpccontext "github.com/erda-project/erda-infra/pkg/trace/inject/context/grpc"
-	"github.com/erda-project/erda-infra/pkg/trace/inject/hook"
+	grpccontext "github.com/oslet/erda-infra/pkg/trace/inject/context/grpc"
+	"github.com/oslet/erda-infra/pkg/trace/inject/hook"
 )
 
 //go:linkname newClient go.etcd.io/etcd/client/v3.newClient

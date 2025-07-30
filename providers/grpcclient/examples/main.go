@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/providers/grpcclient"
-	_ "github.com/erda-project/erda-infra/providers/grpcclient"
+	"github.com/oslet/erda-infra/base/servicehub"
+	"github.com/oslet/erda-infra/providers/grpcclient"
+	_ "github.com/oslet/erda-infra/providers/grpcclient"
 )
 
 type provider struct {

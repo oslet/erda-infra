@@ -15,8 +15,8 @@
 package filter
 
 import (
-	model "github.com/erda-project/erda-infra/providers/component-protocol/components/filter/models"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
+	model "github.com/oslet/erda-infra/providers/component-protocol/components/filter/models"
+	"github.com/oslet/erda-infra/providers/component-protocol/cptype"
 )
 
 // Data .

@@ -19,8 +19,8 @@ import (
 
 	"google.golang.org/grpc/metadata"
 
-	"github.com/erda-project/erda-infra/pkg/transport"
-	"github.com/erda-project/erda-infra/providers/component-protocol/protobuf/proto-go/cp/pb"
+	"github.com/oslet/erda-infra/pkg/transport"
+	"github.com/oslet/erda-infra/providers/component-protocol/protobuf/proto-go/cp/pb"
 )
 
 // GetOrgID .

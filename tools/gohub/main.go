@@ -15,14 +15,14 @@
 package main
 
 import (
-	"github.com/erda-project/erda-infra/tools/gohub/cmd"
-	_ "github.com/erda-project/erda-infra/tools/gohub/cmd/init"
-	_ "github.com/erda-project/erda-infra/tools/gohub/cmd/pkgpath"
-	_ "github.com/erda-project/erda-infra/tools/gohub/cmd/protoc"
-	_ "github.com/erda-project/erda-infra/tools/gohub/cmd/tools"
-	_ "github.com/erda-project/erda-infra/tools/gohub/cmd/tools/install"
-	_ "github.com/erda-project/erda-infra/tools/gohub/cmd/tools/uninstall"
-	_ "github.com/erda-project/erda-infra/tools/gohub/cmd/version"
+	"github.com/oslet/erda-infra/tools/gohub/cmd"
+	_ "github.com/oslet/erda-infra/tools/gohub/cmd/init"
+	_ "github.com/oslet/erda-infra/tools/gohub/cmd/pkgpath"
+	_ "github.com/oslet/erda-infra/tools/gohub/cmd/protoc"
+	_ "github.com/oslet/erda-infra/tools/gohub/cmd/tools"
+	_ "github.com/oslet/erda-infra/tools/gohub/cmd/tools/install"
+	_ "github.com/oslet/erda-infra/tools/gohub/cmd/tools/uninstall"
+	_ "github.com/oslet/erda-infra/tools/gohub/cmd/version"
 )
 
 func main() {

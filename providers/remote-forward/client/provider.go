@@ -23,9 +23,9 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	forward "github.com/erda-project/erda-infra/providers/remote-forward"
+	"github.com/oslet/erda-infra/base/logs"
+	"github.com/oslet/erda-infra/base/servicehub"
+	forward "github.com/oslet/erda-infra/providers/remote-forward"
 	yamux "github.com/hashicorp/yamux"
 	uuid "github.com/satori/go.uuid"
 )

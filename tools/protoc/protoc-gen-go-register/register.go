@@ -26,9 +26,9 @@ import (
 )
 
 const (
-	transportPackage = protogen.GoImportPath("github.com/erda-project/erda-infra/pkg/transport")
-	transhttpPackage = protogen.GoImportPath("github.com/erda-project/erda-infra/pkg/transport/http")
-	transgrpcPackage = protogen.GoImportPath("github.com/erda-project/erda-infra/pkg/transport/grpc")
+	transportPackage = protogen.GoImportPath("github.com/oslet/erda-infra/pkg/transport")
+	transhttpPackage = protogen.GoImportPath("github.com/oslet/erda-infra/pkg/transport/http")
+	transgrpcPackage = protogen.GoImportPath("github.com/oslet/erda-infra/pkg/transport/grpc")
 	reflectPackage   = protogen.GoImportPath("reflect")
 )
 

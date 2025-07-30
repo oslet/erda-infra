@@ -14,7 +14,7 @@
 
 package complexgraph
 
-import "github.com/erda-project/erda-infra/providers/component-protocol/cptype"
+import "github.com/oslet/erda-infra/providers/component-protocol/cptype"
 
 // IComplexGraph complex graph interface
 type IComplexGraph interface {

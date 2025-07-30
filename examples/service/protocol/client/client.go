@@ -6,8 +6,8 @@ package client
 import (
 	context "context"
 
-	pb "github.com/erda-project/erda-infra/examples/service/protocol/pb"
-	grpc "github.com/erda-project/erda-infra/pkg/transport/grpc"
+	pb "github.com/oslet/erda-infra/examples/service/protocol/pb"
+	grpc "github.com/oslet/erda-infra/pkg/transport/grpc"
 	grpc1 "google.golang.org/grpc"
 )
 

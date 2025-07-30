@@ -14,7 +14,7 @@
 
 package linegraph
 
-import "github.com/erda-project/erda-infra/providers/component-protocol/cptype"
+import "github.com/oslet/erda-infra/providers/component-protocol/cptype"
 
 // ILineGraph line graph interface
 type ILineGraph interface {

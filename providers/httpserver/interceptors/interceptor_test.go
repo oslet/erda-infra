@@ -22,7 +22,7 @@ import (
 	"github.com/labstack/echo"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/erda-project/erda-infra/providers/httpserver/mock"
+	"github.com/oslet/erda-infra/providers/httpserver/mock"
 )
 
 func mustGetC(url string, header http.Header) echo.Context {

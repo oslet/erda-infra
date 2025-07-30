@@ -21,11 +21,11 @@ import (
 	"go.opentelemetry.io/otel/propagation"
 	sdktrace "go.opentelemetry.io/otel/sdk/trace"
 
-	_ "github.com/erda-project/erda-infra/pkg/trace/inject/etcd-clientv3" //nolint
-	_ "github.com/erda-project/erda-infra/pkg/trace/inject/http-client"   //nolint
-	_ "github.com/erda-project/erda-infra/pkg/trace/inject/http-server"   //nolint
-	_ "github.com/erda-project/erda-infra/pkg/trace/inject/redis"         //nolint
-	_ "github.com/erda-project/erda-infra/pkg/trace/inject/sql"           //nolint
+	_ "github.com/oslet/erda-infra/pkg/trace/inject/etcd-clientv3" //nolint
+	_ "github.com/oslet/erda-infra/pkg/trace/inject/http-client"   //nolint
+	_ "github.com/oslet/erda-infra/pkg/trace/inject/http-server"   //nolint
+	_ "github.com/oslet/erda-infra/pkg/trace/inject/redis"         //nolint
+	_ "github.com/oslet/erda-infra/pkg/trace/inject/sql"           //nolint
 )
 
 // Init .

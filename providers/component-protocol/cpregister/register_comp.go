@@ -17,9 +17,9 @@ package cpregister
 import (
 	"reflect"
 
-	"github.com/erda-project/erda-infra/providers/component-protocol/components/defaults"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	"github.com/erda-project/erda-infra/providers/component-protocol/protocol"
+	"github.com/oslet/erda-infra/providers/component-protocol/components/defaults"
+	"github.com/oslet/erda-infra/providers/component-protocol/cptype"
+	"github.com/oslet/erda-infra/providers/component-protocol/protocol"
 )
 
 // RegisterComponent register legacy component which implements protocol.RenderCreator

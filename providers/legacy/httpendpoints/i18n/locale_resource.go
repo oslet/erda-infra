@@ -17,7 +17,7 @@ package i18n
 import (
 	"net/http"
 
-	i18nprovider "github.com/erda-project/erda-infra/providers/i18n"
+	i18nprovider "github.com/oslet/erda-infra/providers/i18n"
 )
 
 // LocaleResource .

@@ -24,7 +24,7 @@ import (
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
 
-	"github.com/erda-project/erda-infra/providers/mysql/v2/plugins/fields"
+	"github.com/oslet/erda-infra/providers/mysql/v2/plugins/fields"
 )
 
 type User struct {

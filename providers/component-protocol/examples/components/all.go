@@ -16,16 +16,16 @@ package components
 
 import (
 	// easy to import all common components
-	_ "github.com/erda-project/erda-infra/providers/component-protocol/examples/components/bubblegraph_demo/bubblegraph"
-	_ "github.com/erda-project/erda-infra/providers/component-protocol/examples/components/complexgraph_demo/complexgraph"
-	_ "github.com/erda-project/erda-infra/providers/component-protocol/examples/components/demo/demotable"
-	_ "github.com/erda-project/erda-infra/providers/component-protocol/examples/components/filter_demo/filter"
-	_ "github.com/erda-project/erda-infra/providers/component-protocol/examples/components/kanban_demo/kanban"
-	_ "github.com/erda-project/erda-infra/providers/component-protocol/examples/components/kv_demo/kv"
-	_ "github.com/erda-project/erda-infra/providers/component-protocol/examples/components/linegraph_demo/linegraph"
-	_ "github.com/erda-project/erda-infra/providers/component-protocol/examples/components/paralleldemo"
-	_ "github.com/erda-project/erda-infra/providers/component-protocol/examples/components/table_demo/table"
-	_ "github.com/erda-project/erda-infra/providers/component-protocol/examples/components/top_demo/top"
-	_ "github.com/erda-project/erda-infra/providers/component-protocol/examples/components/urlquery_demo/filter"
-	_ "github.com/erda-project/erda-infra/providers/component-protocol/examples/components/yet_another_demo/demotable"
+	_ "github.com/oslet/erda-infra/providers/component-protocol/examples/components/bubblegraph_demo/bubblegraph"
+	_ "github.com/oslet/erda-infra/providers/component-protocol/examples/components/complexgraph_demo/complexgraph"
+	_ "github.com/oslet/erda-infra/providers/component-protocol/examples/components/demo/demotable"
+	_ "github.com/oslet/erda-infra/providers/component-protocol/examples/components/filter_demo/filter"
+	_ "github.com/oslet/erda-infra/providers/component-protocol/examples/components/kanban_demo/kanban"
+	_ "github.com/oslet/erda-infra/providers/component-protocol/examples/components/kv_demo/kv"
+	_ "github.com/oslet/erda-infra/providers/component-protocol/examples/components/linegraph_demo/linegraph"
+	_ "github.com/oslet/erda-infra/providers/component-protocol/examples/components/paralleldemo"
+	_ "github.com/oslet/erda-infra/providers/component-protocol/examples/components/table_demo/table"
+	_ "github.com/oslet/erda-infra/providers/component-protocol/examples/components/top_demo/top"
+	_ "github.com/oslet/erda-infra/providers/component-protocol/examples/components/urlquery_demo/filter"
+	_ "github.com/oslet/erda-infra/providers/component-protocol/examples/components/yet_another_demo/demotable"
 )

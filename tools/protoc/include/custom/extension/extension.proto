@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package custom.extension;
 import "google/protobuf/descriptor.proto";
-option go_package = "github.com/erda-project/erda-infra/tools/protoc/include/custom/extension";
+option go_package = "github.com/oslet/erda-infra/tools/protoc/include/custom/extension";
 
 extend google.protobuf.MethodOptions {
     HttpMethodOption http = 1001;

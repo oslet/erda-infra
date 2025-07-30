@@ -17,7 +17,7 @@ package example
 import (
 	"testing"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
+	"github.com/oslet/erda-infra/base/servicehub"
 )
 
 func getService(t *testing.T) Interface {

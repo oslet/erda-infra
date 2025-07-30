@@ -15,9 +15,9 @@
 package impl
 
 import (
-	"github.com/erda-project/erda-infra/providers/component-protocol/components/defaults"
-	"github.com/erda-project/erda-infra/providers/component-protocol/components/topn"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
+	"github.com/oslet/erda-infra/providers/component-protocol/components/defaults"
+	"github.com/oslet/erda-infra/providers/component-protocol/components/topn"
+	"github.com/oslet/erda-infra/providers/component-protocol/cptype"
 )
 
 // DefaultTop default top component

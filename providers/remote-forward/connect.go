@@ -19,7 +19,7 @@ import (
 	"io"
 	"net"
 
-	"github.com/erda-project/erda-infra/base/logs"
+	"github.com/oslet/erda-infra/base/logs"
 )
 
 // Pipe .

@@ -17,9 +17,9 @@ package main
 import (
 	"os"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	forward "github.com/erda-project/erda-infra/providers/remote-forward"
-	fserver "github.com/erda-project/erda-infra/providers/remote-forward/server"
+	"github.com/oslet/erda-infra/base/servicehub"
+	forward "github.com/oslet/erda-infra/providers/remote-forward"
+	fserver "github.com/oslet/erda-infra/providers/remote-forward/server"
 )
 
 type provider struct {

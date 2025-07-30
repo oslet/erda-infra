@@ -15,9 +15,9 @@
 package top
 
 import (
-	"github.com/erda-project/erda-infra/providers/component-protocol/components/topn"
-	"github.com/erda-project/erda-infra/providers/component-protocol/components/topn/impl"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
+	"github.com/oslet/erda-infra/providers/component-protocol/components/topn"
+	"github.com/oslet/erda-infra/providers/component-protocol/components/topn/impl"
+	"github.com/oslet/erda-infra/providers/component-protocol/cptype"
 )
 
 type provider struct {

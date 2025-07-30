@@ -33,10 +33,10 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/pflag"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/logs/logrusx"
-	graph "github.com/erda-project/erda-infra/base/servicehub/dependency-graph"
-	"github.com/erda-project/erda-infra/pkg/config"
+	"github.com/oslet/erda-infra/base/logs"
+	"github.com/oslet/erda-infra/base/logs/logrusx"
+	graph "github.com/oslet/erda-infra/base/servicehub/dependency-graph"
+	"github.com/oslet/erda-infra/pkg/config"
 )
 
 // Hub .

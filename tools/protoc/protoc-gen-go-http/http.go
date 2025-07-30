@@ -20,8 +20,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/erda-project/erda-infra/pkg/transport/http/httprule"
-	"github.com/erda-project/erda-infra/pkg/transport/http/runtime"
+	"github.com/oslet/erda-infra/pkg/transport/http/httprule"
+	"github.com/oslet/erda-infra/pkg/transport/http/runtime"
 	"google.golang.org/genproto/googleapis/api/annotations"
 	"google.golang.org/protobuf/compiler/protogen"
 	"google.golang.org/protobuf/proto"
@@ -29,7 +29,7 @@ import (
 )
 
 const (
-	transhttpPackage = protogen.GoImportPath("github.com/erda-project/erda-infra/pkg/transport/http")
+	transhttpPackage = protogen.GoImportPath("github.com/oslet/erda-infra/pkg/transport/http")
 )
 
 func generateFile(gen *protogen.Plugin, file *protogen.File) (*protogen.GeneratedFile, error) {

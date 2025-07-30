@@ -25,7 +25,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/erda-project/erda-infra/pkg/trace/inject/hook"
+	"github.com/oslet/erda-infra/pkg/trace/inject/hook"
 )
 
 func init() {

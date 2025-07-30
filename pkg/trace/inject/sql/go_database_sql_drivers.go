@@ -22,7 +22,7 @@ import (
 	_ "github.com/go-sql-driver/mysql" //nolint
 	semconv "go.opentelemetry.io/otel/semconv/v1.4.0"
 
-	"github.com/erda-project/erda-infra/pkg/trace/inject/hook"
+	"github.com/oslet/erda-infra/pkg/trace/inject/hook"
 )
 
 //go:noinline

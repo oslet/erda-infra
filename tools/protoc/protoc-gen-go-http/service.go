@@ -23,19 +23,19 @@ import (
 	"google.golang.org/protobuf/reflect/protoreflect"
 	"google.golang.org/protobuf/types/descriptorpb"
 
-	protocutils "github.com/erda-project/erda-infra/tools/pkg/protoc-utils"
-	"github.com/erda-project/erda-infra/tools/protoc/include/custom/extension"
+	protocutils "github.com/oslet/erda-infra/tools/pkg/protoc-utils"
+	"github.com/oslet/erda-infra/tools/protoc/include/custom/extension"
 )
 
 const (
-	transportPackage = protogen.GoImportPath("github.com/erda-project/erda-infra/pkg/transport")
+	transportPackage = protogen.GoImportPath("github.com/oslet/erda-infra/pkg/transport")
 	contextPackage   = protogen.GoImportPath("context")
 	httpPackage      = protogen.GoImportPath("net/http")
-	urlencPackage    = protogen.GoImportPath("github.com/erda-project/erda-infra/pkg/urlenc")
+	urlencPackage    = protogen.GoImportPath("github.com/oslet/erda-infra/pkg/urlenc")
 	base64Package    = protogen.GoImportPath("encoding/base64")
 	strconvPackage   = protogen.GoImportPath("strconv")
-	httprulePackage  = protogen.GoImportPath("github.com/erda-project/erda-infra/pkg/transport/http/httprule")
-	runtimePackage   = protogen.GoImportPath("github.com/erda-project/erda-infra/pkg/transport/http/runtime")
+	httprulePackage  = protogen.GoImportPath("github.com/oslet/erda-infra/pkg/transport/http/httprule")
+	runtimePackage   = protogen.GoImportPath("github.com/oslet/erda-infra/pkg/transport/http/runtime")
 	fmtPackage       = protogen.GoImportPath("fmt")
 	stringsPackage   = protogen.GoImportPath("strings")
 )

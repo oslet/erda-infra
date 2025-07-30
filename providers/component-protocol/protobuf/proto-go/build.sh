@@ -16,7 +16,7 @@ fi
 
 #PACKAGE_PATH=$(sed -n '/^module \(.*\)/p' go.mod)
 #PACKAGE_PATH=${PACKAGE_PATH#"module "}
-PACKAGE_PATH="github.com/erda-project/erda-infra/providers/component-protocol/protobuf/proto-go"
+PACKAGE_PATH="github.com/oslet/erda-infra/providers/component-protocol/protobuf/proto-go"
 
 # build protocol
 build_protocol() {

@@ -25,7 +25,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/erda-project/erda-infra/base/logs"
+	"github.com/oslet/erda-infra/base/logs"
 )
 
 type testBaseProvider struct{}

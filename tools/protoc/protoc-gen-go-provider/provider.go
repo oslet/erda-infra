@@ -25,11 +25,11 @@ import (
 )
 
 const (
-	logPackage        = protogen.GoImportPath("github.com/erda-project/erda-infra/base/logs")
-	servicehubPackage = protogen.GoImportPath("github.com/erda-project/erda-infra/base/servicehub")
-	transportPackage  = protogen.GoImportPath("github.com/erda-project/erda-infra/pkg/transport")
-	transhttpPackage  = protogen.GoImportPath("github.com/erda-project/erda-infra/pkg/transport/http")
-	transgrpcPackage  = protogen.GoImportPath("github.com/erda-project/erda-infra/pkg/transport/grpc")
+	logPackage        = protogen.GoImportPath("github.com/oslet/erda-infra/base/logs")
+	servicehubPackage = protogen.GoImportPath("github.com/oslet/erda-infra/base/servicehub")
+	transportPackage  = protogen.GoImportPath("github.com/oslet/erda-infra/pkg/transport")
+	transhttpPackage  = protogen.GoImportPath("github.com/oslet/erda-infra/pkg/transport/http")
+	transgrpcPackage  = protogen.GoImportPath("github.com/oslet/erda-infra/pkg/transport/grpc")
 )
 
 func generateFiles(gen *protogen.Plugin, files []*protogen.File) error {

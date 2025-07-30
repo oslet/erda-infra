@@ -14,7 +14,7 @@
 
 package kv
 
-import "github.com/erda-project/erda-infra/providers/component-protocol/cptype"
+import "github.com/oslet/erda-infra/providers/component-protocol/cptype"
 
 // IKV line graph interface
 type IKV interface {

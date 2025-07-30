@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
+	"github.com/oslet/erda-infra/base/servicehub"
 )
 
 type testInterface interface {

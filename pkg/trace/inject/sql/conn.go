@@ -18,7 +18,7 @@ import (
 	"context"
 	"database/sql/driver"
 
-	injectcontext "github.com/erda-project/erda-infra/pkg/trace/inject/context"
+	injectcontext "github.com/oslet/erda-infra/pkg/trace/inject/context"
 )
 
 type wrappedConn struct {

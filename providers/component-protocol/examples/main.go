@@ -18,16 +18,16 @@ import (
 	"embed"
 	"os"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	componentprotocol "github.com/erda-project/erda-infra/providers/component-protocol"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cpregister"
-	"github.com/erda-project/erda-infra/providers/component-protocol/protocol"
-	"github.com/erda-project/erda-infra/providers/i18n"
-	_ "github.com/erda-project/erda-infra/providers/serviceregister"
+	"github.com/oslet/erda-infra/base/logs"
+	"github.com/oslet/erda-infra/base/servicehub"
+	componentprotocol "github.com/oslet/erda-infra/providers/component-protocol"
+	"github.com/oslet/erda-infra/providers/component-protocol/cpregister"
+	"github.com/oslet/erda-infra/providers/component-protocol/protocol"
+	"github.com/oslet/erda-infra/providers/i18n"
+	_ "github.com/oslet/erda-infra/providers/serviceregister"
 
 	// components
-	_ "github.com/erda-project/erda-infra/providers/component-protocol/examples/components"
+	_ "github.com/oslet/erda-infra/providers/component-protocol/examples/components"
 )
 
 //go:embed scenarios

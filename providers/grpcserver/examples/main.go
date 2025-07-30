@@ -17,8 +17,8 @@ package main
 import (
 	"os"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	_ "github.com/erda-project/erda-infra/providers/grpcserver"
+	"github.com/oslet/erda-infra/base/servicehub"
+	_ "github.com/oslet/erda-infra/providers/grpcserver"
 )
 
 type provider struct {

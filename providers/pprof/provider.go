@@ -18,8 +18,8 @@ import (
 	"net/http"
 	"net/http/pprof"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/providers/httpserver"
+	"github.com/oslet/erda-infra/base/servicehub"
+	"github.com/oslet/erda-infra/providers/httpserver"
 )
 
 // provider .

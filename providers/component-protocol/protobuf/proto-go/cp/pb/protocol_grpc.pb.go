@@ -6,8 +6,8 @@ package pb
 import (
 	context "context"
 
-	transport "github.com/erda-project/erda-infra/pkg/transport"
-	grpc1 "github.com/erda-project/erda-infra/pkg/transport/grpc"
+	transport "github.com/oslet/erda-infra/pkg/transport"
+	grpc1 "github.com/oslet/erda-infra/pkg/transport/grpc"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"

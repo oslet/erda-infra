@@ -17,7 +17,7 @@ package cassandra
 import (
 	"time"
 
-	"github.com/erda-project/erda-infra/base/logs"
+	"github.com/oslet/erda-infra/base/logs"
 	"github.com/gocql/gocql"
 )
 

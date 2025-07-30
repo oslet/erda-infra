@@ -25,7 +25,7 @@ import (
 // common value
 const (
 	Name        = "gohub"
-	PackagePath = "github.com/erda-project/erda-infra"
+	PackagePath = "github.com/oslet/erda-infra"
 )
 
 // RootCmd .

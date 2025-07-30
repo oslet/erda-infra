@@ -18,13 +18,13 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/pkg/transport"
-	transgrpc "github.com/erda-project/erda-infra/pkg/transport/grpc"
-	transhttp "github.com/erda-project/erda-infra/pkg/transport/http"
-	"github.com/erda-project/erda-infra/providers/grpcserver"
-	"github.com/erda-project/erda-infra/providers/httpserver"
+	"github.com/oslet/erda-infra/base/logs"
+	"github.com/oslet/erda-infra/base/servicehub"
+	"github.com/oslet/erda-infra/pkg/transport"
+	transgrpc "github.com/oslet/erda-infra/pkg/transport/grpc"
+	transhttp "github.com/oslet/erda-infra/pkg/transport/http"
+	"github.com/oslet/erda-infra/providers/grpcserver"
+	"github.com/oslet/erda-infra/providers/httpserver"
 	"google.golang.org/grpc"
 )
 

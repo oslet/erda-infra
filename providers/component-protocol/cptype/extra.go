@@ -17,7 +17,7 @@ package cptype
 import (
 	"strconv"
 
-	"github.com/erda-project/erda-infra/pkg/strutil"
+	"github.com/oslet/erda-infra/pkg/strutil"
 )
 
 // Extra is a magic fields, and will be flat if specified in protocol.

@@ -20,8 +20,8 @@ import (
 
 	"github.com/go-playground/validator"
 
-	"github.com/erda-project/erda-infra/base/logs/logrusx"
-	"github.com/erda-project/erda-infra/providers/httpserver/server"
+	"github.com/oslet/erda-infra/base/logs/logrusx"
+	"github.com/oslet/erda-infra/providers/httpserver/server"
 )
 
 func Test_removeParamName(t *testing.T) {

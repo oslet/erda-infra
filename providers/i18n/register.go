@@ -22,8 +22,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	cfg "github.com/erda-project/erda-infra/pkg/config"
-	"github.com/erda-project/erda-infra/pkg/strutil"
+	cfg "github.com/oslet/erda-infra/pkg/config"
+	"github.com/oslet/erda-infra/pkg/strutil"
 )
 
 type file struct {

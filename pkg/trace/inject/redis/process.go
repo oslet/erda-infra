@@ -19,7 +19,7 @@ import (
 	"go.opentelemetry.io/otel/codes"
 	"go.opentelemetry.io/otel/trace"
 
-	injectcontext "github.com/erda-project/erda-infra/pkg/trace/inject/context"
+	injectcontext "github.com/oslet/erda-infra/pkg/trace/inject/context"
 )
 
 func newProcessWrapper(cfg *config) func(oldProcess func(cmd redis.Cmder) error) func(cmd redis.Cmder) error {

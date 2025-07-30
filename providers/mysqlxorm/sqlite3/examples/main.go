@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/providers/mysqlxorm"
-	_ "github.com/erda-project/erda-infra/providers/mysqlxorm/sqlite3"
+	"github.com/oslet/erda-infra/base/servicehub"
+	"github.com/oslet/erda-infra/providers/mysqlxorm"
+	_ "github.com/oslet/erda-infra/providers/mysqlxorm/sqlite3"
 )
 
 type provider struct {

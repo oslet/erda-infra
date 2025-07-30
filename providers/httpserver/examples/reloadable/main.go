@@ -20,10 +20,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	_ "github.com/erda-project/erda-infra/providers/health"
-	"github.com/erda-project/erda-infra/providers/httpserver"
+	"github.com/oslet/erda-infra/base/logs"
+	"github.com/oslet/erda-infra/base/servicehub"
+	_ "github.com/oslet/erda-infra/providers/health"
+	"github.com/oslet/erda-infra/providers/httpserver"
 )
 
 type provider struct {

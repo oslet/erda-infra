@@ -17,7 +17,7 @@ package cputil
 import (
 	"context"
 
-	"github.com/erda-project/erda-infra/providers/i18n"
+	"github.com/oslet/erda-infra/providers/i18n"
 )
 
 // Language .

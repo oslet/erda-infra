@@ -17,7 +17,7 @@ package grpc
 import (
 	"context"
 
-	"github.com/erda-project/erda-infra/pkg/transport/interceptor"
+	"github.com/oslet/erda-infra/pkg/transport/interceptor"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 )

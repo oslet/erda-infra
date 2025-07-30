@@ -28,8 +28,8 @@ import (
 	"github.com/recallsong/go-utils/reflectx"
 	"github.com/sirupsen/logrus"
 
-	cfg "github.com/erda-project/erda-infra/pkg/config"
-	"github.com/erda-project/erda-infra/providers/i18n"
+	cfg "github.com/oslet/erda-infra/pkg/config"
+	"github.com/oslet/erda-infra/providers/i18n"
 )
 
 // InternalI18nConfigs contains all protocl internal i18n configs.

@@ -15,8 +15,8 @@
 package main
 
 import (
-	"github.com/erda-project/erda-infra/base/servicehub"
-	_ "github.com/erda-project/erda-infra/examples/example/helloworld" // your package import path
+	"github.com/oslet/erda-infra/base/servicehub"
+	_ "github.com/oslet/erda-infra/examples/example/helloworld" // your package import path
 )
 
 func main() {

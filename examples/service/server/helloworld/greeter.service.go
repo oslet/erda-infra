@@ -17,7 +17,7 @@ package example
 import (
 	"context"
 
-	"github.com/erda-project/erda-infra/examples/service/protocol/pb"
+	"github.com/oslet/erda-infra/examples/service/protocol/pb"
 )
 
 type greeterService struct {

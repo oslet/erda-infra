@@ -28,7 +28,7 @@ import (
 	"github.com/labstack/echo"
 	"github.com/recallsong/go-utils/net/httpx/filesystem"
 
-	"github.com/erda-project/erda-infra/providers/httpserver/server"
+	"github.com/oslet/erda-infra/providers/httpserver/server"
 )
 
 type (

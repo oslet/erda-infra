@@ -14,7 +14,7 @@
 
 package complexgraph
 
-import structure "github.com/erda-project/erda-infra/providers/component-protocol/components/commodel/data-structure"
+import structure "github.com/oslet/erda-infra/providers/component-protocol/components/commodel/data-structure"
 
 // Y axis positions
 const (

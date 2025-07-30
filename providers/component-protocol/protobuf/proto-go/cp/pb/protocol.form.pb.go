@@ -9,12 +9,12 @@ import (
 	strconv "strconv"
 	strings "strings"
 
-	urlenc "github.com/erda-project/erda-infra/pkg/urlenc"
+	urlenc "github.com/oslet/erda-infra/pkg/urlenc"
 	structpb "google.golang.org/protobuf/types/known/structpb"
 )
 
 // This is a compile-time assertion to ensure that this generated file
-// is compatible with the "github.com/erda-project/erda-infra/pkg/urlenc" package it is being compiled against.
+// is compatible with the "github.com/oslet/erda-infra/pkg/urlenc" package it is being compiled against.
 var _ urlenc.URLValuesUnmarshaler = (*ComponentProtocol)(nil)
 var _ urlenc.URLValuesUnmarshaler = (*Hierarchy)(nil)
 var _ urlenc.URLValuesUnmarshaler = (*Component)(nil)

@@ -7,11 +7,11 @@ import (
 	url "net/url"
 	strconv "strconv"
 
-	urlenc "github.com/erda-project/erda-infra/pkg/urlenc"
+	urlenc "github.com/oslet/erda-infra/pkg/urlenc"
 )
 
 // This is a compile-time assertion to ensure that this generated file
-// is compatible with the "github.com/erda-project/erda-infra/pkg/urlenc" package it is being compiled against.
+// is compatible with the "github.com/oslet/erda-infra/pkg/urlenc" package it is being compiled against.
 var _ urlenc.URLValuesUnmarshaler = (*User)(nil)
 var _ urlenc.URLValuesUnmarshaler = (*GetUserRequest)(nil)
 var _ urlenc.URLValuesUnmarshaler = (*GetUserResponse)(nil)

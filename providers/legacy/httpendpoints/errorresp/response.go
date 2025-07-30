@@ -18,8 +18,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/erda-project/erda-infra/providers/legacy/httpendpoints"
-	"github.com/erda-project/erda-infra/providers/legacy/httpendpoints/i18n"
+	"github.com/oslet/erda-infra/providers/legacy/httpendpoints"
+	"github.com/oslet/erda-infra/providers/legacy/httpendpoints/i18n"
 )
 
 // ToResp 根据 APIError 转为一个 http error response.

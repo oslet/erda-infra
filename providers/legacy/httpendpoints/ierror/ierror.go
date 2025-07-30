@@ -15,7 +15,7 @@
 package ierror
 
 import (
-	"github.com/erda-project/erda-infra/providers/legacy/httpendpoints/i18n"
+	"github.com/oslet/erda-infra/providers/legacy/httpendpoints/i18n"
 )
 
 // IAPIError .

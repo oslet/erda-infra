@@ -23,8 +23,8 @@ import (
 	"gorm.io/driver/mysql" // mysql client driver package
 	"gorm.io/gorm"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/pkg/mysqldriver"
+	"github.com/oslet/erda-infra/base/servicehub"
+	"github.com/oslet/erda-infra/pkg/mysqldriver"
 )
 
 var (

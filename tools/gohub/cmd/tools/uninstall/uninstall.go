@@ -18,8 +18,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/erda-project/erda-infra/tools/gohub/cmd"
-	"github.com/erda-project/erda-infra/tools/gohub/cmd/tools"
+	"github.com/oslet/erda-infra/tools/gohub/cmd"
+	"github.com/oslet/erda-infra/tools/gohub/cmd/tools"
 	"github.com/mitchellh/go-homedir"
 	"github.com/spf13/cobra"
 )
